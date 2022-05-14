@@ -18,6 +18,9 @@ git clone git@github.com:shuffleSoftware/integracion_continua.git
 cd integracion_continua
 git checkout -b <mi-rama>
 npm install
+echo "NODE_PORT=3000" > .env
+npm run debug
+navegar a localhost:3000
 ```
 
 #### Enviar cambios
