@@ -22,6 +22,7 @@ npm install
 
 #### Enviar cambios
 Para revisar que tienes cambios locales\
+`git fetch` para obtener cambios remotos y evitar sobre-escrituras problemáticas
 `git status` obtendrás en rojo los archivos que bien han sido modificados o no están administrados por git.
 `git diff <nombre-de-archivo>` te dará las diferencias de la última versión obtenida contra tus cambios locales
 `git add <nombre-de-archivo>` para que git lo reconozca o `git add .` para añadir el directorio actual
