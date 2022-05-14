@@ -14,7 +14,7 @@
 
 #### Primeros pasos
 ```
-git clone git@github.com:shuffleSoftware/integracion_continua.git
+git clone git@github.com:shuffleSoftware/integracion_continua.git 
 cd integracion_continua
 git checkout -b <mi-rama>
 npm install
@@ -24,13 +24,14 @@ navegar a localhost:3000
 ```
 
 #### Enviar cambios
-Para revisar que tienes cambios locales\
-`git fetch` para obtener cambios remotos y evitar sobre-escrituras problemáticas
-`git status` obtendrás en rojo los archivos que bien han sido modificados o no están administrados por git.
-`git diff <nombre-de-archivo>` te dará las diferencias de la última versión obtenida contra tus cambios locales
-`git add <nombre-de-archivo>` para que git lo reconozca o `git add .` para añadir el directorio actual
-`git commit -m 'detalles del cambio'` para crear una versión con los cambios añadidos del paso anterior
-`git push origin <mi-rama>` para enviar los cambios al repositorio remoto con los cambios locales
+Para revisar que tienes cambios locales
+
+`git fetch` para obtener cambios remotos y evitar sobre-escrituras problemáticas.  
+`git status` obtendrás en rojo los archivos que bien han sido modificados o no están administrados por git.  
+`git diff <nombre-de-archivo>` te dará las diferencias de la última versión obtenida contra tus cambios locales.  
+`git add <nombre-de-archivo>` para que git lo reconozca o `git add .` para añadir el directorio actual.  
+`git commit -m 'detalles del cambio'` para crear una versión con los cambios añadidos del paso anterior.  
+`git push origin <mi-rama>` para enviar los cambios al repositorio remoto con los cambios locales.  
 
 #### Errores
 - Err1
@@ -42,4 +43,3 @@ Para revisar que tienes cambios locales\
  - https://git-scm.com/
  - https://www.npmjs.com/package/dotenv
 
- 
