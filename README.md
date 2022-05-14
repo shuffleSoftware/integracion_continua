@@ -35,3 +35,11 @@ Para revisar que tienes cambios locales\
 #### Errores
 - Err1
 - Err2
+
+#### Referencias
+ - https://expressjs.com/
+ - https://eslint.org/
+ - https://git-scm.com/
+ - https://www.npmjs.com/package/dotenv
+
+ 
