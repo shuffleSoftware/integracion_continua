@@ -4,12 +4,12 @@ const express = require('express')
 const app = express()
 const port = process.env.NODE_PORT
 
-const os = require("os");
+const os = require('os')
 
 app.get('/', (req, res) => {
   res.send({
-      msg: "Hello world",
-      hostname: os.hostname()
+    msg: 'Hello world',
+    hostname: os.hostname()
   })
 })
 
