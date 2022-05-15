@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "test",
-    "debug": "node -r dotenv/config src/index.js dotenv_config_debug=true",
-    "start": "node -r dotenv/config src/index.js"
+    "debug": "node -r dotenv/config src/index.js dotenv_config_path=.env dotenv_config_debug=true",
+    "start": "node -r dotenv/config src/index.js dotenv_config_path=.env"
   },
   "repository": {
     "type": "git",

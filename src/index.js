@@ -13,6 +13,12 @@ app.get('/', (req, res) => {
   })
 })
 
+app.get('/daniel_lopez', (req, res) => {
+  res.send({
+      msg: "Rama de Daniel"
+  })
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
