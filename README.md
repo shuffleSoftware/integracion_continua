@@ -12,7 +12,7 @@
 | Visual Studio Code | 1.66.2 |
 
 
-#### Primeros pasos
+#### Primeros pasos 
 ```
 git clone git@github.com:shuffleSoftware/integracion_continua.git 
 cd integracion_continua
