@@ -42,4 +42,6 @@ Para revisar que tienes cambios locales
  - https://eslint.org/
  - https://git-scm.com/
  - https://www.npmjs.com/package/dotenv
-
+ - https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+ - https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2
+ 
