@@ -12,7 +12,7 @@
 | Visual Studio Code | 1.66.2 |
 
 
-#### Primeros pasos
+#### Primeros pasos 
 ```
 git clone git@github.com:shuffleSoftware/integracion_continua.git 
 cd integracion_continua
@@ -42,4 +42,6 @@ Para revisar que tienes cambios locales
  - https://eslint.org/
  - https://git-scm.com/
  - https://www.npmjs.com/package/dotenv
-
+ - https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+ - https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2
+ 
