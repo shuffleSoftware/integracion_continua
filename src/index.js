@@ -8,7 +8,7 @@ const os = require("os");
 
 app.get('/', (req, res) => {
   res.send({
-      msg: "Hello world",
+      msg: "Hola Mundo!",
       hostname: os.hostname()
   })
 })
