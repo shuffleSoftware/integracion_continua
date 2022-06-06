@@ -3,7 +3,6 @@
 const express = require('express')
 const app = express()
 const port = process.env.NODE_PORT
-const chernandezRouters = require('../src/routes/chernandez')
 const os = require("os");
 
 const drodriguezRouters = require('../src/routes/drodriguez')
