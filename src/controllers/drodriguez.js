@@ -4,7 +4,7 @@ exports.getData = (req, res) => {
     name: 'Carlos Daniel Rodriguez',
     profession: 'Ing en informatio',
     country: 'Santiago / Chile',
-    msg: 'Hello world',
+    msg: 'Hello world RUTA DRODRIGUEZ',
     hostname: os.hostname()
   })
 }
