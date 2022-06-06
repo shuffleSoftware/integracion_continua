@@ -6,6 +6,10 @@ const port = process.env.NODE_PORT
 
 const os = require('os')
 
+const drodriguezRouters = require('../src/routes/drodriguez')
+
+app.use(drodriguezRouters)
+
 app.get('/', (req, res) => {
   res.send({
     msg: 'Hello world',
@@ -13,9 +17,11 @@ app.get('/', (req, res) => {
   })
 })
 
-app.get('/daniel_lopez', (req, res) => {
+app.get('/carlos_rodriguez', (req, res) => {
   res.send({
-      msg: "Rama de Daniel"
+    name: 'Carlos Daniel Rodriguez',
+    profession: 'Ing en informatio',
+    country: 'Santiago / Chile'
   })
 })
 
