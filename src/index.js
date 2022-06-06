@@ -4,18 +4,24 @@ const express = require('express')
 const app = express()
 const port = process.env.NODE_PORT
 
-const os = require("os");
+const os = require('os')
+
+const drodriguezRouters = require('../src/routes/drodriguez')
+
+app.use(drodriguezRouters)
 
 app.get('/', (req, res) => {
   res.send({
-      msg: "Hola Mundo!",
-      hostname: os.hostname()
+    msg: 'Hello world',
+    hostname: os.hostname()
   })
 })
 
-app.get('/daniel_lopez', (req, res) => {
+app.get('/carlos_rodriguez', (req, res) => {
   res.send({
-      msg: "Rama de Daniel"
+    name: 'Carlos Daniel Rodriguez',
+    profession: 'Ing en informatio',
+    country: 'Santiago / Chile'
   })
 })
 
